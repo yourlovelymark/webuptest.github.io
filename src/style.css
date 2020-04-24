@@ -1,0 +1,151 @@
+/*bgcolor = #BC633F*/
+
+/*text color #F1EAEA*/
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Manrope', sans-serif;
+    overflow: hidden;
+}
+*{
+    margin: 0;
+}
+body{
+    background-image: url(../assets/background.png);
+    background-size: cover;
+    background-position: center;
+    color: #F1EAEA;
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.main__header{
+    font-size: 2vw;
+    margin-left: 3%;
+    position: relative;
+    top: 2%;
+}
+.main__header h2, h4{
+    font-weight: 400;
+}
+.main__article{
+    width: 25%;
+    height: auto;
+    font-size: 1.5vw;
+    margin-top: 10%;
+    margin-left: 3%;
+    float: left;
+}
+.main__article h5{
+    font-size: 1.7vw;
+}
+.main__hamburger{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 1%;
+    top: 2%;
+    cursor: pointer;
+    z-index: 1000;
+}
+.main__hamburger__line{
+    width: 80%;
+    height: 0px;
+    margin-left: 10%;
+    border: solid 3px white;
+    z-index: 1000;
+}
+.line1{
+    position: relative;
+}
+.line2{
+    position: relative;
+    top: 15%;
+}
+.line3{
+    position: relative;
+    top: 30%;
+}
+.main__side--menu{
+    width: 25%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background-color: white;    
+    transform: translateX(100%);
+}
+.main__side--menu ul{
+    list-style-type: none;
+    color: black;
+    width: 100%;
+    padding: 0;
+}
+.main__side--menu ul li{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 15%;
+    font-weight: 400;
+    margin-bottom: 2%;
+}
+.main__side--menu ul li:first-child{
+    margin-top: 35%;
+}
+.main__side--menu ul hr{
+    width: 90%;
+    height: 0;
+    margin-left: 5%;
+    border: none;
+    outline: solid 1px #707070;
+}
+.main__side--menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.side__menu__list--item:hover a{
+    transition: 0.5s;
+    color: #707070;
+}
+.main__article article span ul li{
+    margin-bottom: 4%;
+    font-size: 1.3vw;
+}
+.main__article__info{
+    font-size: 1.3vw
+}
+.main__mail__form{
+    width: 25%;
+    height: 50%;
+    font-size: 1.5vw;
+    margin-top: 10%;
+    margin-right: 1%;
+    float: right;
+}
+.mail__form input, textarea, button{
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 2%;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1vw;
+    font-weight: 400;
+}
+.mail__form textarea{
+    width: 79%;
+    height: 13vw;
+}
+.mail__form input{
+    width: 80%;
+    height: 30px;
+    border: solid gray 1px;
+}
+.mail__form button{
+    width: 20%;
+    height: 30px;
+    background:transparent;
+    border: solid white 2px;
+    color: white;
+}
